@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:black;
+    color: whitesmoke;
+}
+
+.Heading {
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.Content {
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    gap: 5px;
+}
+
+.cell {
+    width: 150px;
+    height: 150px;
+    border: 2px solid grey;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.sym {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.reset {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    cursor: pointer;
+}
+
+.but {
+    font-size: 40px;
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+    height: 50px;
+
+}
+

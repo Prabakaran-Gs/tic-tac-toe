@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LP 's Game</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='styles.css')}}">
+</head>
+<body>
+    <div class = 'Heading'>
+        <h1>TIC-TAC-TOE</h1>
+    </div>
+    <div class ="Content">
+        <div id="board">
+            <div class="cell" onclick="window.location.href='{{ url_for( 'update' , arg ='0,0')  }}';">
+                <div class = 'sym'>
+                    <h1>{{board[0][0]}}</h1>
+                </div>
+            </div>
+            <div class="cell" onclick="window.location.href='{{ url_for( 'update' , arg ='0,1')  }}';">
+                <div class = 'sym'>
+                    <h1>{{board[0][1]}}</h1>
+                </div>
+            </div>
+            <div class="cell" onclick="window.location.href='{{ url_for( 'update' , arg ='0,2')  }}';">
+                <div class = 'sym'>
+                    <h1>{{board[0][2]}}</h1>
+                </div>
+            </div>
+            <div class="cell" onclick="window.location.href='{{ url_for( 'update' , arg ='1,0')  }}';">
+                <div class = 'sym'>
+                    <h1>{{board[1][0]}}</h1>
+                </div>
+            </div>
+            <div class="cell" onclick="window.location.href='{{ url_for( 'update' , arg ='1,1')  }}';">
+                <div class = 'sym'>
+                    <h1>{{board[1][1]}}</h1>
+                </div>
+            </div>
+            <div class="cell" onclick="window.location.href='{{ url_for( 'update' , arg ='1,2')  }}';">
+                <div class = 'sym'>
+                    <h1>{{board[1][2]}}</h1>
+                </div>
+            </div>
+            <div class="cell" onclick="window.location.href='{{ url_for( 'update' , arg ='2,0')  }}';">
+                <div class = 'sym'>
+                    <h1>{{board[2][0]}}</h1>
+                </div>
+            </div>
+            <div class="cell" onclick="window.location.href='{{ url_for( 'update' , arg ='2,1')  }}';">
+                <div class = 'sym'>
+                    <h1>{{board[2][1]}}</h1>
+                </div>
+            </div>
+            <div class="cell" onclick="window.location.href='{{ url_for( 'update' , arg ='2,2')  }}';">
+                <div class = 'sym'>
+                    <h1>{{board[2][2]}}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+</body>
+</html>
