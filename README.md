@@ -1,19 +1,63 @@
-# tic-tac-toe
 
-AI Implementation in TIC-TAC-TOE game using <h1>MIN MAX ALOG</h1>
-<p>A flask web app is created.It is used for the playing the tic-tac-toe game against the ai<p>
+<h1>Tic-Tac-Toe with AI using Flask</h1>
 
-<h2>To Run the Code :</h2>
+<p>This repository contains a simple web-based Tic-Tac-Toe game with an AI opponent implemented using Flask and the Minimax algorithm. Players can play against each other or against the AI. The game state is managed on the server, and the AI uses the Minimax algorithm to make optimal moves.</p>
+
+<h2>Usage</h2>
+
+<p>1. Make sure you have Python and Flask installed on your system.</p>
+<p>2. Clone the repository:</p>
+
+```bash
+git clone https://github.com/your_username/tic-tac-toe.git
+```
+
+<p>3. Navigate to the project directory:</p>
+
+```bash
+cd tic-tac-toe
+```
+
+<p>4. Run the Flask app:</p>
+
+```bash
+python app.py
+```
+
+<p>5. Open your web browser and go to http://127.0.0.1:5000/ to play the Tic-Tac-Toe game.</p>
+
+<h2>Game Features</h2>
+
 <ul>
-<li>Run teh main.py</li>
-<li>Click the Url generated</li>
-<li>The Webpage of the game will be opened</li>
+    <li>Human vs. Human: Two players can take turns making moves on the same device.</li>
+    <li>Human vs. AI: Play against the AI, which uses the Minimax algorithm to make optimal moves.</li>
+    <li>Responsive UI: The game interface adapts to different screen sizes.</li>
+    <li>Game Status: Displays the current player, game result, and allows for a new game.</li>
 </ul>
 
-<h2>File Formats<h2>
-<ol>
-<li><b>static<b> : contains the css file </li>
-<li><b>templates<b> :  contains the html files</li>
-<li><b>logic.py<b> : contains the python function and logic for the game </li>
-<li><b>main.py<b> : contains the flask server and acts as a framework </li>
-</ol>
+<h2>Dependencies</h2>
+
+<p>The project uses the Flask web framework. Install it using:</p>
+
+```bash
+pip install Flask
+```
+
+<h2>Structure</h2>
+
+<p>The main files in the project are:</p>
+
+<ul>
+    <li>app.py: The Flask application file.</li>
+    <li>tictactoe.py: Contains the game logic and the Minimax algorithm.</li>
+    <li>templates/index.html: HTML template for the game interface.</li>
+    <li>static/style.css: CSS stylesheet for styling the game interface.</li>
+</ul>
+
+<h2>License</h2>
+
+<p>This code is provided under the [your_license_here] license. See the LICENSE file for details.</p>
+
+<h2>Author</h2>
+
+<p>Author Name</p>
