@@ -9,7 +9,7 @@
 <p>2. Clone the repository:</p>
 
 ```bash
-git clone https://github.com/your_username/tic-tac-toe.git
+git clone https://github.com/Prabakaran-Gs/tic-tac-toe.git
 ```
 
 <p>3. Navigate to the project directory:</p>
@@ -21,7 +21,7 @@ cd tic-tac-toe
 <p>4. Run the Flask app:</p>
 
 ```bash
-python app.py
+python main.py
 ```
 
 <p>5. Open your web browser and go to http://127.0.0.1:5000/ to play the Tic-Tac-Toe game.</p>
@@ -29,7 +29,6 @@ python app.py
 <h2>Game Features</h2>
 
 <ul>
-    <li>Human vs. Human: Two players can take turns making moves on the same device.</li>
     <li>Human vs. AI: Play against the AI, which uses the Minimax algorithm to make optimal moves.</li>
     <li>Responsive UI: The game interface adapts to different screen sizes.</li>
     <li>Game Status: Displays the current player, game result, and allows for a new game.</li>
@@ -40,7 +39,7 @@ python app.py
 <p>The project uses the Flask web framework. Install it using:</p>
 
 ```bash
-pip install Flask
+pip install -r requirements.txt
 ```
 
 <h2>Structure</h2>
@@ -48,16 +47,12 @@ pip install Flask
 <p>The main files in the project are:</p>
 
 <ul>
-    <li>app.py: The Flask application file.</li>
-    <li>tictactoe.py: Contains the game logic and the Minimax algorithm.</li>
+    <li>main.py: The Flask application file.</li>
+    <li>logic.py: Contains the game logic and the Minimax algorithm.</li>
     <li>templates/index.html: HTML template for the game interface.</li>
     <li>static/style.css: CSS stylesheet for styling the game interface.</li>
 </ul>
 
-<h2>License</h2>
-
-<p>This code is provided under the [your_license_here] license. See the LICENSE file for details.</p>
-
 <h2>Author</h2>
 
-<p>Author Name</p>
+<p>Prabakaran GS</p>
